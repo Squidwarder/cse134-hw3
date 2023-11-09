@@ -1,0 +1,13 @@
+:root {
+    --page-color: #f4e8bd;
+    --nav-bar-color: #0099ff;
+    --body-text-font: Arial;
+}
+
+body {    
+    background-color: var(--page-color, beige);
+    font-family: var(--body-text-font, 'Times New Roman', Times, serif);
+}
+nav {
+    background-color: var(--nav-bar-color, rgb(28, 141, 211));
+}
