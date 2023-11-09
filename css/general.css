@@ -46,6 +46,7 @@ nav:has(a) {
     background-color: var(--nav-bar-color, #27A28B);    
     margin: 0 0 0 0;
     padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+    display: flex;
     flex-direction: row;
 }
 
@@ -84,6 +85,7 @@ img {
     border: 1px solid black;
     padding: 1em;
     max-width: 100%;
+    min-width: min-content;
     height: auto;
 }
 
