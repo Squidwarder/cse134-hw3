@@ -30,22 +30,6 @@ header {
     flex-direction: column;    
 }
 
-/* Only works on safari at the moment */
-/* nav:has(a) {
-    background-color: var(--nav-bar-color, #27A28B);    
-    margin: 0 0 0 0;
-    padding: 0.5vh 0.5vw 0.5vh 0.5vw;
-    flex-direction: row;
-} */
-
-nav {
-    background-color: var(--nav-bar-color, #27A28B);    
-    margin: 0 0 0 0;
-    padding: 0.5vh 0.5vw 0.5vh 0.5vw;
-    display: flex;
-    flex-direction: row;
-}
-
 h1 {
     margin: 0 0 0 0; 
     padding: 0.5vh 0.5vw 0.5vh 0.5vw;
@@ -54,6 +38,30 @@ h1 {
     background-color: color-mix(in srgb, orange 75%, black 25%);
     text-align: center;
     flex-direction: row;
+}
+
+/* Only works on safari at the moment */
+nav:has(a) {
+    background-color: var(--nav-bar-color, #27A28B);    
+    margin: 0 0 0 0;
+    padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+    flex-direction: row;
+}
+
+
+/* nav {
+    background-color: var(--nav-bar-color, #27A28B);    
+    margin: 0 0 0 0;
+    padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+    display: flex;
+    flex-direction: row;
+} */
+
+nav a {
+    padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+    margin: 0.5vh 0.5vw 0.5vh 0.5vw;
+    text-decoration-line: underline;
+    color: #B03535;
 }
 
 h2, h3 {
