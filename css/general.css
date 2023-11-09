@@ -83,8 +83,8 @@ h2:hover, h3:hover {
 img {
     border: 1px solid black;
     padding: 1em;
-    max-width: fit-content;
-    min-width: min-content;
+    max-width: 100%;
+    height: auto;
 }
 
 @keyframes animation_experiment {
