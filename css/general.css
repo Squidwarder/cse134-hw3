@@ -1,6 +1,6 @@
 :root {
     --page-color: #f4e8bd;
-    --nav-bar-color: #00ff9d;
+    --nav-bar-color: #0084ff;
     --heading-font: Lato;
     --body-text-font: Arial;    
 }
@@ -83,7 +83,7 @@ h2:hover, h3:hover {
 img {
     border: 1px solid black;
     padding: 1em;
-    max-width: 50vw;
+    max-width: fit-content;
     min-width: min-content;
 }
 
