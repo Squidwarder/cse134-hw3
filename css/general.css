@@ -84,13 +84,20 @@ h2:hover, h3:hover {
     background-color: #B03535;
 }
 
-
+/* Specification for mobile phones */
 img {
     border: 1px solid black;
     padding: 1em;
     object-fit: contain;
     max-width: 50%;    
     height: auto;
+}
+
+/* image specifications for larger screens */
+@media screen and (min-width: 480px) {
+    img {                        
+        max-width: 20%;            
+    }
 }
 
 @keyframes animation_experiment {
