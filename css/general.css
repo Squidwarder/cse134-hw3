@@ -87,7 +87,8 @@ h2:hover, h3:hover {
 
 img {
     border: 1px solid black;
-    /* padding: 1em; */
+    padding: 1em;
+    object-fit: contain;
     max-width: 20%;
     min-width: min-content;
     height: auto;
