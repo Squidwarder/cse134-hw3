@@ -83,7 +83,7 @@ h2:hover, h3:hover {
 img {
     border: 1px solid black;
     padding: 1em;
-    max-width: fit-content;
+    max-width: 80vw;
     min-width: min-content;
 }
 
