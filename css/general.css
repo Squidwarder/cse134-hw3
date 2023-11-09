@@ -1,13 +1,35 @@
 :root {
     --page-color: #f4e8bd;
-    --nav-bar-color: #0099ff;
-    --body-text-font: Arial;
+    --nav-bar-color: #00ff9d;
+    --heading-font: Lato;
+    --body-text-font: Arial;    
 }
 
 body {    
     background-color: var(--page-color, beige);
     font-family: var(--body-text-font, 'Times New Roman', Times, serif);
 }
+
+h1 {
+    font-family: var(--heading-font, Verdana, Geneva, Tahoma, sans-serif);    
+    color: white;
+    background-color: color-mix(in srgb, orange 75%, black 25%);
+    justify-content: center;
+}
+
+h2, h3 {
+    font-family: var(--heading-font, Verdana, Geneva, Tahoma, sans-serif);    
+    color: color-mix(in srgb, orange 75%, black 25%);
+}
+
+
 nav {
-    background-color: var(--nav-bar-color, rgb(28, 141, 211));
+    background-color: var(--nav-bar-color, rgb(39, 162, 139));
+}
+
+img {
+    border: 1px solid black;
+    padding: 1em;
+    max-width: fit-content;
+    min-width: min-content;
 }
